@@ -1,0 +1,60 @@
+# ======================== Build Output ========================
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.lst
+
+# ======================== Keil MDK Build Output ========================
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+MDK-ARM/RTE/
+*.iex
+*.plg
+*.dep
+*.axf
+*.htm
+*.lnp
+*.ini
+*.dbgconf
+*.bak
+*.crf
+*.sbr
+*.__i
+*.d
+*.scr
+*.sct.tmp
+*.map.tmp
+
+# Keil user-specific GUI state (per-user, not shared)
+*.uvguix.*
+*.uvgui.*
+
+# ======================== STM32CubeIDE ========================
+.settings/
+.mxproject
+*.launch
+*.cproject
+*.project
+
+# ======================== OS Files ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ======================== IDE ========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ======================== Python ========================
+__pycache__/
+*.pyc
